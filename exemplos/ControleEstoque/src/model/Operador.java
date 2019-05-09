@@ -47,20 +47,7 @@ public class Operador{
 		}
 		return sb.toString();
 	}
-	/*
-	private final String geraSenha(String txt) {
-		String retorno = "";
-		try {
-			final MessageDigest md = MessageDigest.getInstance(ALGORITMO);
-			final byte[] hash = md.digest(txt.getBytes());
-			retorno =  hash.toString();
-		} catch (NoSuchAlgorithmException e) {
-			e.printStackTrace();
-		}
-		return retorno;
-	}
-	*/
-
+	
 	public String getUsername() {
 		return username;
 	}
